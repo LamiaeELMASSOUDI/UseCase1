@@ -3,7 +3,7 @@
     <fullName>type__c</fullName>
     <externalId>false</externalId>
     <label>type</label>
-    <required>false</required>
+    <required>true</required>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
@@ -11,19 +11,19 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>+16</fullName>
+                <fullName>Action</fullName>
                 <default>false</default>
-                <label>+16</label>
+                <label>Action</label>
             </value>
             <value>
-                <fullName>+18</fullName>
+                <fullName>Romance</fullName>
                 <default>false</default>
-                <label>+18</label>
+                <label>Romance</label>
             </value>
             <value>
-                <fullName>also for kids</fullName>
+                <fullName>Horror</fullName>
                 <default>false</default>
-                <label>also for kids</label>
+                <label>Horror</label>
             </value>
         </valueSetDefinition>
     </valueSet>
