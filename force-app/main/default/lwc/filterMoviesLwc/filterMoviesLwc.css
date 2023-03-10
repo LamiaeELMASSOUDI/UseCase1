@@ -1,0 +1,12 @@
+.input-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .input-container lightning-input {
+    width: 250px;
+    height: 20px;
+    margin: 50px 0;
+
+  }
+ 

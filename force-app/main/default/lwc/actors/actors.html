@@ -1,0 +1,10 @@
+<template>
+    <div class="slds-form-element slds-form-element_horizontal">
+        <label class="slds-form-element__label slds-var-p-top_x-small" for="movie-actors">Actors</label>
+        <div class="slds-form-element__control" id="movie-actors">
+            <template iterator:actor={listOfChosenActors}>
+                <c-actor key={actor.value} actor-id={actor.value} onactorchange = {actorHandler} is-last = {actor.last} available-actors = {availableActors} all-actors = {allActors}></c-actor>
+            </template>
+        </div>
+    </div>
+</template>
