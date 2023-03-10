@@ -1,0 +1,14 @@
+<template>
+    <c-new-movie-modal-l-w-c></c-new-movie-modal-l-w-c>
+    <lightning-layout multiple-rows>
+        <lightning-layout-item size="12">
+            <lightning-card>
+            <lightning-button label="New Movie" onclick={openNewMovieModal} class="slds-m-top_small slds-float_right" ></lightning-button>
+            <p class="slds-var-p-horizontal_small">
+                <c-filter-movies-lwc onsearchmovies = {searchMovies} ></c-filter-movies-lwc>
+            </p>
+            <c-movies-results-lwc></c-movies-results-lwc>
+        </lightning-card>
+        </lightning-layout-item>
+    </lightning-layout>
+</template>
